@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Lemon&display=swap');
 
 :root {
-    --laranja-claro: #ecba82;
+    --laranja-claro: #FF862A;
     --alto-contraste-fundo: #000000;
     --alto-contraste-texto: #ffffff;
-    --alto-contraste-link: #ebaff7;
+    --alto-contraste-link: #ffd700;
 }
 
 body {
@@ -24,13 +24,13 @@ section {
 
 
 .nav-link {
-    color: #82ceec;
+    color: #CB6D43;
     font-weight: 600;
 }
 
 .inicio-fundo {
     /* aula 3 */
-    background-image: url('img/Tropicalia_Mode_uit_Engeland._Collin_Glascoe_met_mannequins_op_Leidseplein\,_Bestanddeelnr_921-1925.jpg');
+    background-image: url('img/4965007.jpg');
     /* Substitua pelo caminho da sua imagem */
     background-size: cover;
     background-position: right;
@@ -79,8 +79,8 @@ section {
     padding-top: 5rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
-    background: url('img/flor-bottom-direita.png') top right no-repeat,
-        url('img/flor-bottom-direita.png') bottom left no-repeat;
+    background: url('img/flor.png') top right no-repeat,
+        url('img/flor-esquerda.png') bottom left no-repeat;
     background-size: 180px 180px;
     /* Ajuste o tamanho conforme necessário */
 }
@@ -132,7 +132,7 @@ h2 {
 }
 
 .formulario button {
-    background-color: #ecba82;
+    background-color: #CB6D43;
     border: none;
     font-weight: bold;
 }
